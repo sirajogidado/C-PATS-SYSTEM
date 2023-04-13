@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approval Application | DG-CAA</title>
+    <!-- material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- ---------stylesheet---------->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/ncaalogo.png">
+</head>
+<div class="container">
+    <aside>
+        <div class="top">
+            <div class="logo">
+                <img src="/assets/img/ncaalogo.png" alt="">
+                <h2>C<span class="danger">PATS</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+        <div class="sidebar">
+            <a href="#" class="active">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#" class="#">
+                <span class="material-icons-sharp">group</span>
+                <h3>Directorates</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">approval</span>
+                <h3>Approvals</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">bar_chart</span>
+                <h3>Analytics</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">analytics</span>
+                <h3>Reports</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">mail</span>
+                <h3>Messages</h3>
+                <span class="message-count">15</span>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">health_and_safety</span>
+                <h3>Add Approval</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>Settings</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </aside>
+    <!-- ----------end of Aside---------- -->
+
+    <main>
+        <div class="main-container">
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="verified">
+                    <span class="material-icons-sharp">approval</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Approvals</h3>
+                            <h1>₦170,378 </h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 hours</small>
+                    </div>
+                </div>
+                <div class="pending">
+                    <span class="material-icons-sharp">score</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Pending</h3>
+                            <h1>₦23,003</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>23%</p>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 hours</small>
+                    </div>
+                </div>
+                <div class="denied">
+                    <span class="material-icons-sharp">warning</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Denied</h3>
+                            <h1>₦12,047 </h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>11%</p>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 24 hours</small>
+                    </div>
+                </div>
+
+                <!-- -------------End of Approvals--------- -->
+            </div>
+            <!-- ----------End of insights------- -->
+
+            <div class="recent-approvals">
+                <h3>Recent Approvals</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>File Number</th>
+                            <th>Directorate</th>
+                            <th>Department</th>
+                            <th>Approval Subject</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9908</td>
+                            <td>DAWS</td>
+                            <td>Surveillance</td>
+                            <td>DTA - Safety Reporting System team</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>6789</td>
+                            <td>DHRA</td>
+                            <td>MPDA</td>
+                            <td>APER sensitization workshop</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>11001</td>
+                            <td>DOLTS</td>
+                            <td>Licensing</td>
+                            <td>Licensing Exam Training - DTA</td>
+                            <td class="success">Approved</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>00879</td>
+                            <td>Director General</td>
+                            <td>ICT</td>
+                            <td>ICT Policy Document Launch</td>
+                            <td class="success">Approved</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </div>
+    </main>
+    <!-- -------------end of main------------- -->
+
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Hey, <b>Sirajo</b> </p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="/assets/img/CEO.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------end of top------- -->
+        <div class="recent-updates">
+            <h3>Recent Updates</h3>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="/assets/img/ncaalogo.png">
+                    </div>
+                    <div class="message">
+                        <p><b>DAWS</b> approval for Flight Standard Group Dashboard training</p>
+                        <small class="text-muted">2 Minutes ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="/assets/img/ncaalogo.png">
+                    </div>
+                    <div class="message">
+                        <p><b>DAAS</b> approval for Kaduna Airport Aerodrome inspection</p>
+                        <small class="text-muted">17 Minutes ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="/assets/img/ncaalogo.png">
+                    </div>
+                    <div class="message">
+                        <p><b>DATR</b> approval for SAATM-PIP event</p>
+                        <small class="text-muted">36 Minutes ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------- end of recent updates-------------------- -->
+
+        <div class="Project-activity">
+            <h3>Project Activity</h3>
+            <div class="project-feed">
+                <div class="icon">
+                    <span class="material-icons-sharp">thumb_down</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Projects Rejected</h3>
+                        <small class="text-muted">Last 15 hours</small>
+                    </div>
+                    <h5 class="danger">-29%</h5>
+                    <h3>890</h3>
+                </div>
+            </div>
+            <div class="project-feed">
+                <div class="icon">
+                    <span class="material-icons-sharp">thumb_up</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Projects Approved</h3>
+                        <small class="text-muted">Last 15 hours</small>
+                    </div>
+                    <h5 class="success">+40%</h5>
+                    <h3>980</h3>
+                </div>
+            </div>
+            <div class="project-feed">
+                <div class="icon">
+                    <span class="material-icons-sharp">pending_actions</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Projects Pending</h3>
+                        <small class="text-muted">Last 6 hours</small>
+                    </div>
+                    <h5 class="danger">-4.9%</h5>
+                    <h3>17</h3>
+                </div>
+            </div>
+            <div class="project-feed">
+                <div class="icon">
+                    <span class="material-icons-sharp">add_chart</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>New Projects</h3>
+                        <small class="text-muted">Last 23 hours</small>
+                    </div>
+                    <h5 class="danger">-10%</h5>
+                    <h3>30</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>

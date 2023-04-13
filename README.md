@@ -1,4 +1,1 @@
-# hello-world
-hi, 
-
-my name is sirajo gidado a network security analyst interested in software development.
+a web application for govt agencies that will be used to track approved projects.
